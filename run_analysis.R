@@ -46,7 +46,7 @@ mergedDataSet<-rbind(dfTrain,dfTest)
 # Set header
 names(mergedDataSet)<-header
 
-# recplace numbers with descriptive values
+# replace numbers with descriptive values
 mergedDataSet$activity<-activityLabes[mergedDataSet$activity,2]
 
 # get the column names what contain mean or standard deviation
